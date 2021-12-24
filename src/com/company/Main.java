@@ -3,14 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-
-
         System.out.println(num(67, 20));
     }
 
 
     public static String num(int ageOfMe, int temperature) {
-
         if (ageOfMe <= 20 || ageOfMe >= 45 || temperature <= -20 || temperature <= 45) {
             if (ageOfMe < 20 && temperature > 0 && temperature < 20) {
                 return "Можно идти гулять";
